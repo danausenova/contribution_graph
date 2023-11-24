@@ -1,7 +1,11 @@
-import "./App.css";
+import ContributionGraph from "./components/ContributionGraph";
 
 function App() {
-  return <></>;
+  return (
+    <div className="app">
+      <ContributionGraph />
+    </div>
+  );
 }
 
 export default App;
